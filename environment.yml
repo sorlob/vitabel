@@ -3,5 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python==3.12
-  - vitabel
+  - pip
+  - pip:
+    - git+https://github.com/UniGrazMath/vitabel.git@85e79e721c358d2fec5955420d6a41231ff457f3
   - voila
